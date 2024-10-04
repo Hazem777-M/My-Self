@@ -1,0 +1,90 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+
+h1 {
+    color: #444;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+.tables-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 30px;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 45%;
+    margin: 0 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+th {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+td {
+    text-align: center;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+caption {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+
+tfoot td {
+    font-weight: bold;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #444;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #444;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #666;
+}
